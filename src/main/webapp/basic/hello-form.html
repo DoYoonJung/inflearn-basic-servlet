@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="/request-param" method="post">
+    username: <input type="text" name="username" />
+    age: <input type="text" name="age" />
+    <button type="submit">전송</button>
+</form>
+</body>
+</html>
+
+<!--http://localhost:8080/basic/hello-form.html로 키면 됨, 보내는 action이 아까 만들었던 get 방식인데도 똑같이 출력된다. 형식이 똑같기 때문이다
+즉, getParameter은 get과 post 모두 지원한다-->
